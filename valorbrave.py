@@ -11,5 +11,4 @@ def ultimate_bravery(available_characters, available_sidearms, available_primary
     random_pri = random.choice(available_primary)
     return random_cha, random_sid, random_pri
 
-input("Valorant Ultimate Bravery, Are you ready to lose games?")
 print(ultimate_bravery(characters, sidearms, primary))
